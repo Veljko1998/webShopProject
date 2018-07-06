@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2018, 10:03:30 PM
+    Author     : Veljko
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #cce6ff;
+}
+/*header.jsp*/
+.logo {
+    float: left;
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+.header {
+    overflow: hidden;
+    background-color: #003399;
+    height: 150px;
+    color: #fff;
+    /*margin-bottom: 10px;*/
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 31px;
+}
+.navbar li {
+    float: left;
+}
+.navbar a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #333;
+}
+#desniFloat {
+    float: right;
+}
+.navbar a:hover {
+    background-color: #111;
+}
+/*End of header.jsp*/
+/*sidebar.jsp*/
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border-collapse: collapse;*/
+    background-color: #333;
+}
+.sidebar li {
+    color: #fff;
+}
+.basicList li {
+    border-top: 0.5px solid #cce6ff;
+    border-bottom: 0.1px solid #cce6ff;
+}
+.subList li {
+    border: none;
+    text-indent: 20px;
+}
+.basicList {
+    width: 200px;
+}
+.basicList p {
+    text-align: center;
+}
+.basicList a {
+    color: #fff;
+    display: block;
+}
+.basicList a:hover {
+    background-color: #cce6ff;
+    color: white;
+}
+.basicList a:active{
+    background-color: #4CAF50;
+    color: white;
+}
+/*End of sidebar.jsp*/
